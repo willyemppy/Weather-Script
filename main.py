@@ -12,6 +12,8 @@ currentTemp = new_data['main']['temp']-273.15
 feels_like = new_data['main']['feels_like']-273.15
 windSpeed = new_data['wind']['speed']
 print()
+print("Current weather in Ottawa, ON")
+print()
 print("Current temperature is: ", end="")
 print("%.2f "%currentTemp+"Celsius")
 print("Real feel is:", end="")
